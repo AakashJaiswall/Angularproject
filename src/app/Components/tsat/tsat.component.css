@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.timeperformance{
+
+  background-color: black;
+  /* width: 250px; */
+  height: 250px;
+}
+.outer{
+  height: 250px;
+  border-radius: 2%;
+}
+
+.heading{
+  font-size: small;
+  color: white;
+  font-weight: 800;
+  padding: 3%;
+  margin: 0%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main{
+  /* /* display: flex; */
+  justify-content: space-around;
+  align-items: end;
+  align-items: center;
+  height: 100%;
+   width: 100px;
+  height: 100px; 
+
+}
+.chart-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  border-radius: 10px;
+
+/* margin-bottom: -18% !important; */
+}
+
+.apexcharts-treemap {
+  font-family: Arial, sans-serif;
+}
+.chart-container1 {
+  display: flex;
+   flex-direction: column;
+ justify-content: end;
+ align-items: end;
+   /* background-color: #1a1a2e; */
+  border-radius: 10px;
+  left: 0px;
+/* margin: -8% !important; */
+}
+
+.apexcharts-treemap1 {
+  font-family: Arial, sans-serif;
+}
+
+
+
+.radios{
+  display: inline-block;
+  padding: 8px 16px;
+  text-align: center;
+  position: relative;
+  color: #ffffff;
+  /* background-color: #3f3fff; Outer box background */
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+}
+.radios::before{
+  content: '';
+  position: absolute;
+  top: 0%;
+  width: 15px;
+  height: 18px;
+  border-radius: 8px;
+  background-color: #87d7ff; /* Inner box background */
+
+}

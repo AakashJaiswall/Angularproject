@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.timeperformance{
+
+  background-color: black;
+  /* width: 250px; */
+  height: 250px;
+}
+.outer{
+  height: 250px;
+  border-radius: 2%;
+}
+
+.heading{
+  font-size: small;
+  color: white;
+  font-weight: 800;
+  padding: 3%;
+  margin: 0%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+.lists{
+  border-radius: 5%;
+  height: 55px;
+  background-color: #210142;
+ color: white;
+  margin-bottom: 12px;
+  animation-name: keys;
+  animation-duration: 0.8s;
+  transition: ease-in-out;
+  animation-iteration-count: infinite;
+ }
+
+.lists ul{
+  display: flex;
+   justify-content: space-around;
+}
+
+
+.lists ul li{
+   padding: 12px;
+  }
+
+
+@keyframes keys {
+   0%{}
+ 100%{box-shadow: 0px 0px 8px  rgb(97, 205, 255);}
+  }

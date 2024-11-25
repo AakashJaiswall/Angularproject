@@ -1,0 +1,32 @@
+<!-- <div class="timeperformance m-2"> -->
+
+<div class="container m-1 outer" style="background-color: black;">
+  <div class="row">
+    <p class="heading"> ON-TIME PERFORMANCE </p>
+    <div class="col-4">
+      <div class="main">
+        <div >
+
+<div class="chart-container">
+  <apx-chart [series]="circleOptions.series!" [chart]="circleOptions.chart!" [plotOptions]="circleOptions.plotOptions!" [dataLabels]="circleOptions.dataLabels!" [colors]="circleOptions.colors!" [labels]="circleOptions.labels!"></apx-chart>
+</div>
+
+          </div>
+      </div>
+
+    </div>
+    <div class="col-8">
+          <div class="mb-0" >
+            <apx-chart
+            [series]="chartOptions.series!"
+            [chart]="chartOptions.chart!"
+            [xaxis]="chartOptions.xaxis!"
+            [title]="chartOptions.title!"
+          ></apx-chart>
+        </div>
+          </div>
+  </div>
+
+</div>
+
+<!-- </div> -->

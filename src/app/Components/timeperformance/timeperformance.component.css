@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.timeperformance{
+
+  background-color: black;
+  /* width: 250px; */
+  height: 250px;
+}
+.outer{
+  height: 250px;
+  border-radius: 2%;
+}
+
+.heading{
+  font-size: small;
+  color: white;
+  font-weight: 800;
+  padding: 3%;
+  margin: 0%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main{
+  display: flex;
+  justify-content: space-around;
+  /* align-items: end; */
+  align-items: center;
+  height: 100%;
+
+}
